@@ -1,0 +1,46 @@
+details summary{
+    outline: none;
+}
+details summary::-webkit-details-marker {
+    display:none;
+}
+details summary, details summary a{
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+details summary:hover, details summary:focus, 
+details summary a:focus, details summary a:hover{
+    color: #F1C100;
+    text-decoration: none;
+}
+.hamburg .burg{
+    width: 100%;
+    height: 4px;
+    background: #fff;
+    display: block;
+    margin-bottom: 7px;
+}
+.nav-tag{
+}
+.nav-tag details ul{
+}
+.nav-tag details ul li{
+    list-style: none;
+    margin: 0;
+}
+.nav-tag details ul li a{
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+}
+.nav-tag details ul li a:hover{
+    color: #F1C100;
+    text-decoration: none;
+}
+@media screen and (max-width: 880px){
+    .nav-tag{
+        padding-left: 20px;
+    }
+}

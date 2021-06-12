@@ -1,0 +1,23 @@
+.nav-text{
+    padding: 15px;
+}
+.nav-text h4{
+    color: #fff;
+    margin-bottom: 0;
+    /* text-align: justify; */
+    font-size: 21px;
+}
+.nav-text h4 span{
+    color: #01a4d6;
+}
+.nav-text p{
+    color: #fff;
+    margin: 5px 0 0 0;
+    text-align: justify;
+    font-size: 14px;
+}
+.nav-text a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #F1C100;
+}
